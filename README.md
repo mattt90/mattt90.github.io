@@ -28,4 +28,4 @@ If you have a question about using Jekyll, start a discussion on the [Jekyll For
 
 ## Local
 
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
