@@ -5,7 +5,7 @@ author: founder-one
 author_profile: true
 ---
 
-## Co-founder, Brew City Data
+## Co-founder, Cream City Data
 
 This is a generic founder profile, ready for a name, photo, and personal biography.
 {: .notice--info}

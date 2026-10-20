@@ -1,19 +1,19 @@
 founder-one:
   name: "Founder One"
   bio: "Co-founder exploring data engineering, analytics, and the foundations of reliable data."
-  avatar: "/assets/images/brew-city-data.svg"
+  avatar: "/assets/images/cream-city-data.svg"
   home: /founders/founder-one/
   links:
-    - label: "Brew City Data blog"
+    - label: "Cream City Data blog"
       icon: "fas fa-fw fa-pen"
       url: /posts/
 
 founder-two:
   name: "Founder Two"
   bio: "Co-founder exploring applied AI, thoughtful experimentation, and useful products."
-  avatar: "/assets/images/brew-city-data.svg"
+  avatar: "/assets/images/cream-city-data.svg"
   home: /founders/founder-two/
   links:
-    - label: "Brew City Data blog"
+    - label: "Cream City Data blog"
       icon: "fas fa-fw fa-pen"
       url: /posts/

@@ -1,6 +1,6 @@
-# Brew City Data
+# Cream City Data
 
-The company website and data & AI blog for Brew City Data, built with Jekyll and the [Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/).
+The company website and data & AI blog for Cream City Data, built with Jekyll and the [Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/).
 
 ## Local development
 
@@ -29,7 +29,7 @@ The generated output is in `_site/`; edit source files rather than generated HTM
 - `_data/authors.yml`: shared founder names, bios, profile URLs, and avatars.
 - `_posts/`: articles about data and AI.
 - `assets/css/main.scss`: theme settings and responsive company styling.
-- `assets/images/brew-city-data.svg`: company mark and favicon.
+- `assets/images/cream-city-data.svg`: company mark and favicon.
 
 ## Personalize before launch
 

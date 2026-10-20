@@ -5,7 +5,7 @@ permalink: /founders/
 
 Two founders, complementary perspectives, and a shared interest in making data and AI work better.
 
-These are placeholder profiles. Names and biographies will be updated as Brew City Data's team details are published.
+These are placeholder profiles. Names and biographies will be updated as Cream City Data's team details are published.
 {: .notice--info}
 
 <div class="bcd-grid">

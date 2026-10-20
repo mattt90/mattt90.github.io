@@ -1,6 +1,6 @@
 ---
 permalink: /contact/
-title: "Connect with Brew City Data"
+title: "Connect with Cream City Data"
 ---
 
 Interested in data engineering, analytics, or practical AI? Those are the conversations we want to have.
