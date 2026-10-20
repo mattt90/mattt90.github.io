@@ -1,7 +1,50 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
-author_profile: true
+title: "Practical data. Thoughtful AI."
+author_profile: false
+excerpt: "Brew City Data: two founders exploring better ways to work with data and AI."
 ---
+
+<div class="bcd-intro">
+  <p class="bcd-eyebrow">Brew City Data</p>
+  <p class="bcd-lead">Good questions. Strong foundations. Useful answers.</p>
+  <p>We're a two-founder company focused on making data and AI more useful, understandable, and dependable. This is where we share what we're learning and building.</p>
+  <div class="bcd-actions">
+    <a class="btn btn--primary" href="{{ '/posts/' | relative_url }}">Read the blog</a>
+    <a class="btn btn--inverse" href="{{ '/founders/' | relative_url }}">Meet the founders</a>
+  </div>
+</div>
+
+<section class="bcd-section" aria-labelledby="focus-heading">
+  <h2 id="focus-heading">What we're brewing</h2>
+  <div class="bcd-grid">
+    <article class="bcd-card">
+      <span class="bcd-eyebrow">01 / Foundations</span>
+      <h3>Data that earns your trust</h3>
+      <p>Data engineering, quality, and analytics that make it easier to go from raw information to confident decisions.</p>
+      <a href="{{ '/categories/#data' | relative_url }}">Explore data articles &rarr;</a>
+    </article>
+    <article class="bcd-card">
+      <span class="bcd-eyebrow">02 / Possibilities</span>
+      <h3>AI with a purpose</h3>
+      <p>Practical experiments, honest evaluation, and responsible ways to bring AI into everyday work.</p>
+      <a href="{{ '/categories/#ai' | relative_url }}">Explore AI articles &rarr;</a>
+    </article>
+  </div>
+</section>
+
+<section class="bcd-section" aria-labelledby="team-heading">
+  <h2 id="team-heading">Two founders. One shared curiosity.</h2>
+  <p>Get to know the people behind Brew City Data and the perspectives they bring to data and AI.</p>
+  <div class="bcd-grid">
+    {% for founder in site.data.authors %}
+      {% assign profile = founder[1] %}
+      <article class="bcd-card">
+        <span class="bcd-eyebrow">Co-founder</span>
+        <h3><a href="{{ profile.home | relative_url }}">{{ profile.name }}</a></h3>
+        <p>{{ profile.bio }}</p>
+        <a href="{{ profile.home | relative_url }}">View profile &rarr;</a>
+      </article>
+    {% endfor %}
+  </div>
+</section>

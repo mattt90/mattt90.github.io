@@ -1,40 +1,58 @@
-# Minimal Mistakes remote theme starter
+# Brew City Data
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+The company website and data & AI blog for Brew City Data, built with Jekyll and the [Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/).
 
-Contains basic configuration to get you a site with:
+## Local development
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+Use the included devcontainer with VS Code and a supported container runtime, or install Ruby and Bundler locally.
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+```sh
+bundle install
+bundle exec jekyll serve --livereload
+```
 
+Open `http://localhost:4000`. Restart Jekyll after changing `_config.yml`.
+
+To produce the static site:
+
+```sh
+bundle exec jekyll build
+```
+
+The generated output is in `_site/`; edit source files rather than generated HTML.
+
+## Site structure
+
+- `index.html`: company introduction, focus areas, founder cards, and recent posts.
+- `_pages/`: about, contact, founder directory, two founder profiles, and blog archives.
+- `_data/navigation.yml`: main navigation.
+- `_data/authors.yml`: shared founder names, bios, profile URLs, and avatars.
+- `_posts/`: articles about data and AI.
+- `assets/css/main.scss`: theme settings and responsive company styling.
+- `assets/images/brew-city-data.svg`: company mark and favicon.
+
+## Personalize before launch
+
+The two founder profiles are deliberately generic. Replace "Founder One" and "Founder Two" in `_data/authors.yml` and the corresponding page titles and biographies in `_pages/founder-one.md` and `_pages/founder-two.md`. Keep the author keys (`founder-one` and `founder-two`) stable to preserve article attribution, or update matching post front matter when changing them.
+
+Add real contact details to `_pages/contact.md`, and remove the placeholder notices when the profiles are ready. The included blog articles are starter editorial content for review, not claims about past client work.
+
+The existing `CNAME` domain is unchanged. Before deployment, confirm the production domain and set `url` in `_config.yml` to its HTTPS origin. Set `baseurl` only if deploying under a subpath.
+
+## Publish an article
+
+Create `_posts/YYYY-MM-DD-your-title.md`:
+
+```yaml
 ---
+title: "Your article title"
+author: founder-one
+categories:
+  - data
+tags:
+  - analytics
+excerpt: "A short summary for listings and search."
+---
+```
 
-## Troubleshooting
-
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
-
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
-
-## Local
-### Prerequisites
-- Docker orchestration
-    - [Rancher Desktop](https://rancherdesktop.io/) (preferred)
-    - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-    - [Podman](https://podman.io/)
-- Editor with devcontainer support
-    - [VS Code](https://code.visualstudio.com/download) (preferred)
-        - [Dev container](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) extension
-
-Run command:
-    bundle exec jekyll serve --livereload
+Write the article below the front matter. Use `founder-one` or `founder-two` for attribution and `data` or `ai` for the main topic. Posts appear automatically on the homepage, blog archive, matching founder profile, topic and tag archives, search, and RSS feed. Jekyll does not publish future-dated posts by default.

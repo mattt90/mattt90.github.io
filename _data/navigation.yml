@@ -1,10 +1,10 @@
 main:
-  - title: "Posts"
+  - title: "Blog"
     url: /posts/
-  - title: "Categories"
+  - title: "Topics"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
+  - title: "Founders"
+    url: /founders/
   - title: "About"
     url: /about/
   - title: "Contact"

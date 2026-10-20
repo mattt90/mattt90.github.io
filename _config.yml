@@ -13,15 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Matt's Place
-#logo: /assets/images/bio-photo2.jpg
-email: matttrage90@gmail.com
+title: Brew City Data
+name: Brew City Data
+subtitle: "Data, brewed into insight."
+logo: /assets/images/brew-city-data.svg
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Brew City Data is a two-founder company exploring practical data engineering,
+  analytics, and AI. Meet our founders and read ideas for turning data into
+  useful, responsible solutions.
+locale: en-US
+og_type: website
+social:
+  type: Organization
+  name: Brew City Data
 minimal_mistakes_skin: default
 search: true
 
@@ -59,34 +63,22 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Mattt90"
-  avatar : "/assets/images/bio-photo2.jpg"
-  bio    : "Father, Husband, Gamer, and Software Developer. Passionate about technology and sharing knowledge."
+  name   : "Brew City Data"
+  avatar : "/assets/images/brew-city-data.svg"
+  bio    : "Two founders. A shared curiosity for data and AI. Practical ideas, clearly explained."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "Meet the founders"
+      icon: "fas fa-fw fa-users"
+      url: /founders/
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "About us"
+      icon: "fas fa-fw fa-building"
+      url: /about/
+    - label: "Our founders"
+      icon: "fas fa-fw fa-users"
+      url: /founders/
 
 defaults:
   # _posts
@@ -97,7 +89,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
@@ -106,7 +98,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid
