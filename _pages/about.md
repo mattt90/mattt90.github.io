@@ -1,9 +1,9 @@
 ---
 permalink: /about/
-title: "About Cream City Data"
+title: "About Brew City Data"
 ---
 
-Cream City Data is a two-founder company built around a simple idea: data and AI should help people do meaningful work.
+Brew City Data is a two-founder company built around a simple idea: data and AI should help people do meaningful work.
 
 We care about the entire journey, from reliable data foundations to clear analysis and thoughtfully evaluated AI. Our approach is to start with a real question, build understanding, and choose tools that fit the problem.
 
@@ -16,7 +16,7 @@ We care about the entire journey, from reliable data foundations to clear analys
 
 ## Meet the team
 
-We're building Cream City Data together. Visit our [founder profiles]({{ '/founders/' | relative_url }}) to learn about each co-founder's focus.
+We're building Brew City Data together. Visit our [founder profiles]({{ '/founders/' | relative_url }}) to learn about each co-founder's focus.
 
 ## Learn with us
 

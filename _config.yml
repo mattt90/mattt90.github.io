@@ -13,19 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Cream City Data
-name: Cream City Data
-subtitle: "Helping data rise to the top."
-logo: /assets/images/cream-city-data.svg
+title: Brew City Data
+name: Brew City Data
+subtitle: "Data, brewed into insight."
+logo: /assets/images/brew-city-data.svg
 description: >- # this means to ignore newlines until "baseurl:"
-  Cream City Data is a two-founder company exploring practical data engineering,
+  Brew City Data is a two-founder company exploring practical data engineering,
   analytics, and AI. Meet our founders and read ideas for turning data into
   useful, responsible solutions.
 locale: en-US
 og_type: website
 social:
   type: Organization
-  name: Cream City Data
+  name: Brew City Data
 minimal_mistakes_skin: default
 search: true
 
@@ -63,8 +63,8 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Cream City Data"
-  avatar : "/assets/images/cream-city-data.svg"
+  name   : "Brew City Data"
+  avatar : "/assets/images/brew-city-data.svg"
   bio    : "Two founders. A shared curiosity for data and AI. Practical ideas, clearly explained."
   links:
     - label: "Meet the founders"
